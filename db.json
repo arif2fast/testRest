@@ -61,7 +61,6 @@
               "productCode": "GIR-IDR-P",
               "currencyCode": "IDR",
               "balance": "29182447.49"
-              
             }
           ]
         }
@@ -133,27 +132,12 @@
           "cifName1": "ANISA YUTENG",
           "cifName2": "",
           "titleAfterName": "",
-          "residentCode": "Y",
-          "occupationCode": "PSW",
-          "dayOfBirth": "1992-09-20",
-          "birthIncorporationPlace": "CIANJUR",
-          "sexCode": "M",
-          "countryOfCitizenship": "000",
-          "motherMaidenName": "VIVI",
           "businessUnitCode": "CBC24",
           "jenisDibitur": "9",
           "custPreviousName": "",
           "code1": "9000",
           "pemilik": "886",
           "lokasi": "111",
-          "hubunganDenganBank": "2000",
-          "hubunganKeluarga": "0",
-          "wilayahTLahir": "10",
-          "ratingDate": "2020-05-05",
-          "ratingSource": "CANLS",
-          "ratingCode": "05",
-          "informationDate": "2020-05-05",
-          "reviewDate": "2020-05-05",
           "address": [
             {
               "addressTypeCode": "01",
@@ -178,10 +162,6 @@
             "employmentEndDate": "1999-11-30",
             "employerIndustryCode": "09",
             "jobDesignationCode": "3",
-            "currentSalary": "10000000",
-            "previousSalary": "0",
-            "salaryCurrencyCode": "IDR",
-            "prefixName": "32",
             "cooperativeMemberFlag": "0"
           },
           "identificationData": {
