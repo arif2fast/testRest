@@ -1,0 +1,186 @@
+{
+  "casa": {
+    "casaAccountInquiryResponse": {
+      "soaHeader": {
+        "messageVersion": "1.0",
+        "messageType": "JSON",
+        "messageSubType": "accountInquiry",
+        "messageSender": "BI Fast",
+        "senderDomain": "BIFast",
+        "messageTimeStamp": "2021-06-25 15:25:42.305",
+        "initiatedTimeStamp": "2021-06-25 15:25:42.305",
+        "exceptionDescription": "OK"
+      },
+      "messageHeader": {
+        "property": [
+          {
+            "propertyKey": "tellerId",
+            "propertyValue": "9910210"
+          },
+          {
+            "propertyKey": "journalSequence",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "transactionCode",
+            "propertyValue": "0019"
+          },
+          {
+            "propertyKey": "internalId",
+            "propertyValue": "1625294099042"
+          },
+          {
+            "propertyKey": "headerType",
+            "propertyValue": "*SOKI"
+          },
+          {
+            "propertyKey": "sourceId",
+            "propertyValue": "*SOAI"
+          },
+          {
+            "propertyKey": "destinationId",
+            "propertyValue": "DQAXISIN"
+          },
+          {
+            "propertyKey": "messageStatus",
+            "propertyValue": "/-------"
+          },
+          {
+            "propertyKey": "bankIdNumber",
+            "propertyValue": null
+          },
+          {
+            "propertyKey": "node",
+            "propertyValue": "1"
+          },
+          {
+            "propertyKey": "transactionCode",
+            "propertyValue": "0019"
+          },
+          {
+            "propertyKey": "retrievalReferenceNumber",
+            "propertyValue": "1196502107031324438711"
+          },
+          {
+            "propertyKey": "acquirerReferenceNumber",
+            "propertyValue": "345901889928"
+          },
+          {
+            "propertyKey": "transmissionNumber",
+            "propertyValue": null
+          },
+          {
+            "propertyKey": "numberOfRecordsToBeLoaded",
+            "propertyValue": "10"
+          },
+          {
+            "propertyKey": "numberOfErrorsToBeLoaded",
+            "propertyValue": "10"
+          },
+          {
+            "propertyKey": "userId",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "supervisorId",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "moreRecordIndicator",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "cutOffIndicator",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "userData",
+            "propertyValue": ""
+          },
+          {
+            "propertyKey": "routerQueue",
+            "propertyValue": "KDQICRTTEL"
+          },
+          {
+            "propertyKey": "deviceNameWorkstation",
+            "propertyValue": "10.243.128.171"
+          },
+          {
+            "propertyKey": "messageNumber",
+            "propertyValue": "1911"
+          },
+          {
+            "propertyKey": "communicationQueue",
+            "propertyValue": "PDQAXISINI"
+          },
+          {
+            "propertyKey": "finalSocketAddress",
+            "propertyValue": "0"
+          },
+          {
+            "propertyKey": "entryTime",
+            "propertyValue": "13:24:43.0Z"
+          },
+          {
+            "propertyKey": "uniqueTransactionSynchronisationId",
+            "propertyValue": "0"
+          }
+        ]
+      },
+      "payload": {
+        "responseCode": "1",
+        "responseMessage": "OK",
+        "responseTimestamp": "2021-07-03T13:34:59.0Z",
+        "casaAccountDetails": {
+          "accountNumber": "310094501676",
+          "accountType": "S",
+          "branchNumber": "3100",
+          "shortName": "\"/\\f\\nvian\\r\\t\\b",
+          "accountStatus": "1",
+          "currencyType": "IDR",
+          "productCode": "TABKAPEL",
+          "cifInfo": {
+            "cifNo": "7000299383",
+            "idNo": "3322021705910001",
+            "cifNameAddressDetails": {
+              "cifNameAddress": [
+                {
+                  "name": "CIFName1",
+                  "value": "LANCAR JAYA"
+                },
+                {
+                  "name": "CIFName2",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress1",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress2",
+                  "value": "Insufficient address"
+                },
+                {
+                  "name": "CIFAddress3",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress4",
+                  "value": "**************"
+                }
+              ]
+            },
+            "contactNumber": "",
+            "residentCode": "N"
+          },
+          "passbookOrStatement": "B",
+          "availableBalance": "521212205.33",
+          "ledgerBalance": "527896525.33",
+          "lastActiveDate": "2021-05-08",
+          "originalBalance": "0",
+          "tellerStatus": "O"
+        }
+      }
+    }
+  }
+}
