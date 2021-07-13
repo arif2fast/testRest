@@ -26,11 +26,7 @@
               "cdTermCode": "",
               "dateIssued": "1999-11-30",
               "status": "0",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "",
-              "agreementStatus": "0",
-              "accountCategory": "0"
+              "maturityDate": "1999-11-30"
             },
             {
               "branchNumber": "11500",
@@ -51,11 +47,7 @@
               "cdTermCode": "",
               "dateIssued": "1999-11-30",
               "status": "0",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "",
-              "agreementStatus": "0",
-              "accountCategory": "0"
+              "maturityDate": "1999-11-30"
             },
             {
               "branchNumber": "11500",
@@ -76,11 +68,7 @@
               "cdTermCode": "",
               "dateIssued": "1999-11-30",
               "status": "0",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "MMPLFB",
-              "agreementStatus": "9",
-              "accountCategory": "2"
+              "maturityDate": "1999-11-30"
             },
             {
               "branchNumber": "11500",
@@ -101,11 +89,7 @@
               "cdTermCode": "",
               "dateIssued": "1999-11-30",
               "status": "6",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "",
-              "agreementStatus": "0",
-              "accountCategory": "0"
+              "maturityDate": "1999-11-30"
             },
             {
               "branchNumber": "11500",
@@ -126,36 +110,7 @@
               "cdTermCode": "",
               "dateIssued": "1999-11-30",
               "status": "6",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "",
-              "agreementStatus": "0",
-              "accountCategory": "0"
-            },
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "D",
-              "accountNumber": "700006798578",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "GIR-IDR-P",
-              "currencyCode": "IDR",
-              "balance": "0",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "0",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": ".055",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "9",
-              "maturityDate": "1999-11-30",
-              "receiptSerialNo": "0",
-              "serviceProgrammeId": "",
-              "agreementStatus": "0",
-              "accountCategory": "0"
+              "maturityDate": "1999-11-30"
             }
           ]
         }
