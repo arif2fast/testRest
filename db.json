@@ -16,17 +16,7 @@
               "accountRelationship": "P",
               "productCode": "",
               "currencyCode": "",
-              "balance": "0",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "0",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": "0",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "0",
-              "maturityDate": "1999-11-30"
+              "balance": "0"
             },
             {
               "branchNumber": "11500",
@@ -37,17 +27,7 @@
               "accountRelationship": "P",
               "productCode": "",
               "currencyCode": "",
-              "balance": "0",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "0",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": "0",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "0",
-              "maturityDate": "1999-11-30"
+              "balance": "0"
             },
             {
               "branchNumber": "11500",
@@ -58,17 +38,7 @@
               "accountRelationship": "P",
               "productCode": "MMCPLT",
               "currencyCode": "IDR",
-              "balance": "0",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "300000000",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": "0",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "0",
-              "maturityDate": "1999-11-30"
+              "balance": "0"
             },
             {
               "branchNumber": "11500",
@@ -79,17 +49,7 @@
               "accountRelationship": "P",
               "productCode": "GIR-IDR-P",
               "currencyCode": "IDR",
-              "balance": "162767086.46",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "0",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": ".012578",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "6",
-              "maturityDate": "1999-11-30"
+              "balance": "162767086.46"
             },
             {
               "branchNumber": "11500",
@@ -100,17 +60,8 @@
               "accountRelationship": "P",
               "productCode": "GIR-IDR-P",
               "currencyCode": "IDR",
-              "balance": "29182447.49",
-              "implementLimitAmount": "0",
-              "approvalLimitAmount": "0",
-              "facilityCode": "",
-              "additionalName": "",
-              "interestRate": ".005",
-              "cdTerm": "0",
-              "cdTermCode": "",
-              "dateIssued": "1999-11-30",
-              "status": "6",
-              "maturityDate": "1999-11-30"
+              "balance": "29182447.49"
+              
             }
           ]
         }
@@ -164,13 +115,7 @@
             },
             "contactNumber": "",
             "residentCode": "N"
-          },
-          "passbookOrStatement": "B",
-          "availableBalance": "521212205.33",
-          "ledgerBalance": "527896525.33",
-          "lastActiveDate": "2021-05-08",
-          "originalBalance": "0",
-          "tellerStatus": "O"
+          }
         }
       }
     }
