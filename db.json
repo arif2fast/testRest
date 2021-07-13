@@ -1,14 +1,373 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "cifInquiryResponse": {
+    "soaHeader": {
+      "messageVersion": "1.0",
+      "messageType": "JSON",
+      "messageSubType": "cifInquiry",
+      "messageSender": "KOPRA",
+      "senderDomain": "CoreBank",
+      "messageTimeStamp": "2021-03-09 13:17:29.000",
+      "initiatedTimeStamp": "2021-03-09 13:17:29.000",
+      "trackingID": "12345"
+    },
+    "messageHeader": {
+      "property": [
+        {
+          "propertyKey": "tellerId",
+          "propertyValue": "9910310"
+        },
+        {
+          "propertyKey": "journalSequence",
+          "propertyValue": "494502"
+        },
+        {
+          "propertyKey": "transactionCode",
+          "propertyValue": "1618"
+        },
+        {
+          "propertyKey": "internalId",
+          "propertyValue": "1626109356954"
+        },
+        {
+          "propertyKey": "headerType",
+          "propertyValue": "*SOKI"
+        },
+        {
+          "propertyKey": "sourceId",
+          "propertyValue": "*SOAI"
+        },
+        {
+          "propertyKey": "destinationId",
+          "propertyValue": "MBCFIQHD"
+        },
+        {
+          "propertyKey": "messageStatus",
+          "propertyValue": "/0000000"
+        },
+        {
+          "propertyKey": "bankIdNumber",
+          "propertyValue": null
+        },
+        {
+          "propertyKey": "node",
+          "propertyValue": "1"
+        },
+        {
+          "propertyKey": "transactionCode",
+          "propertyValue": "1618"
+        },
+        {
+          "propertyKey": "retrievalReferenceNumber",
+          "propertyValue": "7904032107122352114903"
+        },
+        {
+          "propertyKey": "acquirerReferenceNumber",
+          "propertyValue": "023694307831"
+        },
+        {
+          "propertyKey": "transmissionNumber",
+          "propertyValue": null
+        },
+        {
+          "propertyKey": "numberOfRecordsToBeLoaded",
+          "propertyValue": "10"
+        },
+        {
+          "propertyKey": "numberOfErrorsToBeLoaded",
+          "propertyValue": "10"
+        },
+        {
+          "propertyKey": "userId",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "supervisorId",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "moreRecordIndicator",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "cutOffIndicator",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "userData",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseResultCode",
+          "propertyValue": "AA"
+        },
+        {
+          "propertyKey": "referenceNumber",
+          "propertyValue": "0"
+        },
+        {
+          "propertyKey": "rebidNumber",
+          "propertyValue": "0"
+        },
+        {
+          "propertyKey": "endOfGroupIndicator",
+          "propertyValue": "*END"
+        },
+        {
+          "propertyKey": "blockMessageNumber",
+          "propertyValue": "0"
+        },
+        {
+          "propertyKey": "sourceID",
+          "propertyValue": "SOA"
+        },
+        {
+          "propertyKey": "returnDataQueueName",
+          "propertyValue": "PDSPO7002O"
+        },
+        {
+          "propertyKey": "terminalID",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "bankNumber",
+          "propertyValue": "8"
+        },
+        {
+          "propertyKey": "branchNumber",
+          "propertyValue": "0"
+        },
+        {
+          "propertyKey": "reviewSupervisorID",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "transmitSupervisorID",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "transactionCode",
+          "propertyValue": "1618"
+        },
+        {
+          "propertyKey": "actionCode",
+          "propertyValue": "I"
+        },
+        {
+          "propertyKey": "transactionMode",
+          "propertyValue": "R"
+        },
+        {
+          "propertyKey": "noOfRecordsToRetrieve",
+          "propertyValue": "1"
+        },
+        {
+          "propertyKey": "moreRecordsIndicator",
+          "propertyValue": "N"
+        },
+        {
+          "propertyKey": "searchMethod",
+          "propertyValue": "F"
+        },
+        {
+          "propertyKey": "responseErrorCode1",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseReasonForCode1",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseErrorCode2",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseReasonForCode2",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseErrorCode3",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseReasonForCode3",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseErrorCode4",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseReasonForCode4",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseErrorCode5",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "responseReasonForCode5",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "accountNo",
+          "propertyValue": "0"
+        },
+        {
+          "propertyKey": "accountType",
+          "propertyValue": ""
+        },
+        {
+          "propertyKey": "filler",
+          "propertyValue": ""
+        }
+      ]
+    },
+    "payload": {
+      "responseCode": "1",
+      "responseMessage": "OK",
+      "responseTimestamp": "2021-07-13T00:02:36.0Z",
+      "customer": {
+        "branchNumber": "11500",
+        "bankNumber": "8",
+        "titleBeforeName": "",
+        "cifName1": "ANISA YUTENG",
+        "cifName2": "",
+        "titleAfterName": "",
+        "residentCode": "Y",
+        "occupationCode": "PSW",
+        "dayOfBirth": "1992-09-20",
+        "birthIncorporationPlace": "CIANJUR",
+        "sexCode": "M",
+        "countryOfCitizenship": "000",
+        "motherMaidenName": "VIVI",
+        "businessUnitCode": "CBC24",
+        "jenisDibitur": "9",
+        "custPreviousName": "",
+        "code1": "9000",
+        "pemilik": "886",
+        "lokasi": "111",
+        "hubunganDenganBank": "2000",
+        "hubunganKeluarga": "0",
+        "wilayahTLahir": "10",
+        "ratingDate": "2020-05-05",
+        "ratingSource": "CANLS",
+        "ratingCode": "05",
+        "informationDate": "2020-05-05",
+        "reviewDate": "2020-05-05",
+        "address": [
+          {
+            "addressTypeCode": "01",
+            "address1": "JL. SEGI WARGA",
+            "address2": "JL. SEGI WARGA",
+            "address3": "KLATEN SELATAN",
+            "address4": "Bandung Selatan 40555",
+            "postalCode": "40555"
+          }
+        ],
+        "contactDetails": {
+          "telephone": "021-7356202",
+          "fax": "021 3000008002429384",
+          "handphone": "62811000008002429384",
+          "customerCategory": {
+            "customerTypeCode": "A"
+          }
+        },
+        "corporateCustomerData": {
+          "employerName": "BCA FINANCE",
+          "employmentStartDate": "2020-09-24",
+          "employmentEndDate": "1999-11-30",
+          "employerIndustryCode": "09",
+          "jobDesignationCode": "3",
+          "currentSalary": "10000000",
+          "previousSalary": "0",
+          "salaryCurrencyCode": "IDR",
+          "prefixName": "32",
+          "cooperativeMemberFlag": "0"
+        },
+        "identificationData": {
+          "identificationDetails": [
+            {
+              "typeCode": "KTP",
+              "idNumber": "3310262009920003",
+              "expiryDate": null,
+              "issuePlace": "KOTA ADM. JAKARTA BARAT",
+              "statusCode": null
+            }
+          ]
+        },
+        "customerAdditionalData": {
+          "property": [
+            {
+              "propertyKey": "codeField2",
+              "propertyValue": "I1999"
+            },
+            {
+              "propertyKey": "codeCurrency1",
+              "propertyValue": "IDR"
+            },
+            {
+              "propertyKey": "codeField1",
+              "propertyValue": "I1001"
+            },
+            {
+              "propertyKey": "remarkLine4",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "remarkLine3",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "remarkLine2",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "remarkLine1",
+              "propertyValue": "PPA Information from Canalis"
+            },
+            {
+              "propertyKey": "codeAmount3",
+              "propertyValue": "0"
+            },
+            {
+              "propertyKey": "codeAmount2",
+              "propertyValue": "1000000"
+            },
+            {
+              "propertyKey": "codeAmount1",
+              "propertyValue": "10000000"
+            },
+            {
+              "propertyKey": "uic2UserDefined",
+              "propertyValue": "B"
+            },
+            {
+              "propertyKey": "codeFlag3",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "codeCurrency3",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "codeFlag2",
+              "propertyValue": "I"
+            },
+            {
+              "propertyKey": "codeField3",
+              "propertyValue": ""
+            },
+            {
+              "propertyKey": "codeCurrency2",
+              "propertyValue": "IDR"
+            },
+            {
+              "propertyKey": "codeFlag1",
+              "propertyValue": "I"
+            }
+          ]
+        }
+      }
+    }
   }
 }
