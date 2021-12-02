@@ -1,72 +1,149 @@
 {
   "cifAccount": {
-    "cifAccountInquiryResponse": {
-      "payload": {
-        "responseCode": "1",
-        "responseMessage": "OK",
-        "responseTimestamp": "2021-06-28T11:04:56.0Z",
-        "customerAccount": {
-          "accountList": [
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "C",
-              "accountNumber": "40012146920068",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "",
-              "currencyCode": "",
-              "balance": "0"
-            },
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "C",
-              "accountNumber": "130017814070063",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "",
-              "currencyCode": "",
-              "balance": "0"
-            },
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "C",
-              "accountNumber": "300000138730285",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "MMCPLT",
-              "currencyCode": "IDR",
-              "balance": "0"
-            },
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "D",
-              "accountNumber": "700006798529",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "GIR-IDR-P",
-              "currencyCode": "IDR",
-              "balance": "162767086.46"
-            },
-            {
-              "branchNumber": "11500",
-              "cifNumber": "30000013873",
-              "accountType": "D",
-              "accountNumber": "700006798560",
-              "shortName": "ANISA YUTENG",
-              "accountRelationship": "P",
-              "productCode": "GIR-IDR-P",
-              "currencyCode": "IDR",
-              "balance": "29182447.49"
-            }
-          ]
-        }
+  "cifAccountInquiryResponse": {
+    "soaHeader": {
+      "messageVersion": "1.0",
+      "messageType": "JSON",
+      "messageSubType": "cifInquiry",
+      "messageSender": "POC",
+      "senderDomain": "Outside",
+      "messageTimeStamp": "2021-04-06 14:07:59.000",
+      "initiatedTimeStamp": "2021-04-06 14:07:59.000",
+      "trackingID": "210406999012345",
+      "exceptionCode": ""
+    },
+    "payload": {
+      "responseCode": "1",
+      "responseMessage": "OK",
+      "responseTimestamp": "2021-06-28T11:04:56.0Z",
+      "customerAccount": {
+        "accountList": [
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "40012146920068",
+            "shortName": "MAYA DWI ASTUTI",
+            "accountRelationship": "P",
+            "productCode": "",
+            "currencyCode": "",
+            "balance": "752921"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "130017814070063",
+            "shortName": "ANISA YUTENG",
+            "accountRelationship": "P",
+            "productCode": "",
+            "currencyCode": "",
+            "balance": "0"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "300000138730285",
+            "shortName": "ANISA YUTENG",
+            "accountRelationship": "P",
+            "productCode": "MMCPLT",
+            "currencyCode": "IDR",
+            "balance": "36189216"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798529",
+            "shortName": "DWI SUSILO",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "162767086.46"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798560",
+            "shortName": "ROBY CANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "29182447.49"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798578",
+            "shortName": "ERICKSON ARNOLD",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "-153509"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "L",
+            "accountNumber": "1150086392791",
+            "shortName": "SUSENO CHANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "292144.35"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392775",
+            "shortName": "RAMERO CARLO",
+            "accountRelationship": "P",
+            "productCode": "GIRIDR-TNP",
+            "currencyCode": "IDR",
+            "balance": "8344052040.17"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392783",
+            "shortName": "John DOE",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "536189216.13"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392791",
+            "shortName": "SUSANTO CHANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "2075292144.35"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "L",
+            "accountNumber": "1150006400610",
+            "shortName": "Titis Lailatul Fitriyah",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "531535094.37"
+          }
+        ]
       }
     }
-  },
+  }
+},
   "casa": {
     "casaAccountInquiryResponse": {
       "payload": {
