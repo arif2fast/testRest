@@ -1,97 +1,259 @@
 {
-  "users": [
-    {
-      "uuid": "XgbuVEXBU5gtSKdbQRP1Zbbby1i1",
-      "from": "custom-db",
-      "username": "admin",
-      "password": "admin",
-      "role": "admin",
-      "data": {
-        "displayName": "Abbott Keitch",
-        "photoURL": "assets/images/avatars/Abbott.jpg",
-        "email": "admin@fusetheme.com",
-        "settings": {
-          "layout": {
-            "style": "layout1",
-            "config": {
-              "scroll": "content",
-              "navbar": {
-                "display": true,
-                "folded": true,
-                "position": "left"
-              },
-              "toolbar": {
-                "display": true,
-                "style": "fixed",
-                "position": "below"
-              },
-              "footer": {
-                "display": true,
-                "style": "fixed",
-                "position": "below"
-              },
-              "mode": "fullwidth"
-            }
-          },
-          "customScrollbars": true,
-          "theme": {
-            "main": "defaultDark",
-            "navbar": "defaultDark",
-            "toolbar": "defaultDark",
-            "footer": "defaultDark"
-          }
-        },
-        "shortcuts": [
-          "calendar",
-          "mail",
-          "contacts"
-        ]
-      }
+  "cifAccount": {
+  "cifAccountInquiryResponse": {
+    "soaHeader": {
+      "messageVersion": "1.0",
+      "messageType": "JSON",
+      "messageSubType": "cifInquiry",
+      "messageSender": "POC",
+      "senderDomain": "Outside",
+      "messageTimeStamp": "2021-04-06 14:07:59.000",
+      "initiatedTimeStamp": "2021-04-06 14:07:59.000",
+      "trackingID": "210406999012345",
+      "exceptionCode": ""
     },
-    {
-      "uuid": "XgbuVEXBU6gtSKdbTYR1Zbbby1i3",
-      "from": "custom-db",
-      "username": "staff",
-      "password": "staff",
-      "role": "staff",
-      "data": {
-        "displayName": "Arnold Matlock",
-        "photoURL": "assets/images/avatars/Arnold.jpg",
-        "email": "staff@fusetheme.com",
-        "settings": {
-          "layout": {
-            "style": "layout2",
-            "config": {
-              "mode": "boxed",
-              "scroll": "content",
-              "navbar": {
-                "display": true
-              },
-              "toolbar": {
-                "display": true,
-                "position": "below"
-              },
-              "footer": {
-                "display": true,
-                "style": "fixed"
-              }
-            }
+    "payload": {
+      "responseCode": "1",
+      "responseMessage": "OK",
+      "responseTimestamp": "2021-06-28T11:04:56.0Z",
+      "customerAccount": {
+        "accountList": [
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "40012146920068",
+            "shortName": "MAYA DWI ASTUTI",
+            "accountRelationship": "P",
+            "productCode": "",
+            "currencyCode": "",
+            "balance": "752921"
           },
-          "customScrollbars": true,
-          "theme": {
-            "main": "greeny",
-            "navbar": "mainThemeDark",
-            "toolbar": "mainThemeDark",
-            "footer": "mainThemeDark"
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "130017814070063",
+            "shortName": "ANISA YUTENG",
+            "accountRelationship": "P",
+            "productCode": "",
+            "currencyCode": "",
+            "balance": "0"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "C",
+            "accountNumber": "300000138730285",
+            "shortName": "ANISA YUTENG",
+            "accountRelationship": "P",
+            "productCode": "MMCPLT",
+            "currencyCode": "IDR",
+            "balance": "36189216"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798529",
+            "shortName": "DWI SUSILO",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "162767086.46"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798560",
+            "shortName": "ROBY CANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "29182447.49"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "700006798578",
+            "shortName": "ERICKSON ARNOLD",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "-153509"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "L",
+            "accountNumber": "1150086392791",
+            "shortName": "SUSENO CHANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "292144.35"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392775",
+            "shortName": "RAMERO CARLO",
+            "accountRelationship": "P",
+            "productCode": "GIRIDR-TNP",
+            "currencyCode": "IDR",
+            "balance": "8344052040.17"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392783",
+            "shortName": "John DOE",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "536189216.13"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "D",
+            "accountNumber": "1150006392791",
+            "shortName": "SUSANTO CHANDRA",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "2075292144.35"
+          },
+          {
+            "branchNumber": "11500",
+            "cifNumber": "30000013873",
+            "accountType": "L",
+            "accountNumber": "1150006400610",
+            "shortName": "Titis Lailatul Fitriyah",
+            "accountRelationship": "P",
+            "productCode": "GIR-IDR-P",
+            "currencyCode": "IDR",
+            "balance": "531535094.37"
           }
-        },
-        "shortcuts": [
-          "calendar",
-          "mail",
-          "contacts",
-          "todo"
         ]
       }
     }
-  ]
+  }
+},
+  "casa": {
+    "casaAccountInquiryResponse": {
+      "payload": {
+        "responseCode": "1",
+        "responseMessage": "OK",
+        "responseTimestamp": "2021-07-03T13:34:59.0Z",
+        "casaAccountDetails": {
+          "accountNumber": "310094501676",
+          "accountType": "S",
+          "branchNumber": "3100",
+          "shortName": "\"/\\f\\nvian\\r\\t\\b",
+          "accountStatus": "1",
+          "currencyType": "IDR",
+          "productCode": "TABKAPEL",
+          "cifInfo": {
+            "cifNo": "7000299383",
+            "idNo": "3322021705910001",
+            "cifNameAddressDetails": {
+              "cifNameAddress": [
+                {
+                  "name": "CIFName1",
+                  "value": "LANCAR JAYA"
+                },
+                {
+                  "name": "CIFName2",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress1",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress2",
+                  "value": "Insufficient address"
+                },
+                {
+                  "name": "CIFAddress3",
+                  "value": "**************"
+                },
+                {
+                  "name": "CIFAddress4",
+                  "value": "**************"
+                }
+              ]
+            },
+            "contactNumber": "",
+            "residentCode": "N"
+          }
+        }
+      }
+    }
+  },
+  "cifInquiry": {
+    "cifInquiryResponse": {
+      "payload": {
+        "responseCode": "1",
+        "responseMessage": "OK",
+        "responseTimestamp": "2021-07-13T00:02:36.0Z",
+        "customer": {
+          "branchNumber": "11500",
+          "bankNumber": "8",
+          "titleBeforeName": "",
+          "cifName1": "ANISA YUTENG",
+          "cifName2": "",
+          "titleAfterName": "",
+          "businessUnitCode": "CBC24",
+          "jenisDibitur": "9",
+          "custPreviousName": "",
+          "code1": "9000",
+          "pemilik": "886",
+          "lokasi": "111",
+          "address": [
+            {
+              "addressTypeCode": "01",
+              "address1": "JL. SEGI WARGA",
+              "address2": "JL. SEGI WARGA",
+              "address3": "KLATEN SELATAN",
+              "address4": "Bandung Selatan 40555",
+              "postalCode": "40555"
+            }
+          ],
+          "contactDetails": {
+            "telephone": "021-7356202",
+            "fax": "021 3000008002429384",
+            "handphone": "62811000008002429384",
+            "customerCategory": {
+              "customerTypeCode": "A"
+            }
+          },
+          "corporateCustomerData": {
+            "employerName": "BCA FINANCE",
+            "employmentStartDate": "2020-09-24",
+            "employmentEndDate": "1999-11-30",
+            "employerIndustryCode": "09",
+            "jobDesignationCode": "3",
+            "cooperativeMemberFlag": "0"
+          },
+          "identificationData": {
+            "identificationDetails": [
+              {
+                "typeCode": "KTP",
+                "idNumber": "3310262009920003",
+                "expiryDate": null,
+                "issuePlace": "KOTA ADM. JAKARTA BARAT",
+                "statusCode": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }
